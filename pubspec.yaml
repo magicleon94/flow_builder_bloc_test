@@ -1,0 +1,19 @@
+name: flow_builder_bloc_test
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^6.1.1
+  equatable: ^1.2.5
+  flow_builder: ^0.0.1-dev.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+   uses-material-design: true
