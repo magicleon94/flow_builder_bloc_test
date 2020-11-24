@@ -21,3 +21,8 @@ If we go back during the process the bloc has no clue of what's happening so som
 The good thing would be to notify the bloc upon popping the page in order to reset `feature1` to `null` as the beginning, undoing the action that led to navigating to Step 2 in the first place.
 
 Messing with the equality of the state is not an option here, I believe.
+
+# Proposed fix
+This branch references a fork I've made to the original [flow_builder](https://pub.dev/packages/flow_builder) that can be found [here](https://github.com/magicleon94/flow_builder/commit/76cc674fb432d38661ee68df62efcc215f122b77).
+
+Having the `onPop` callback called the bloc can easily react accordingly to that user input event.

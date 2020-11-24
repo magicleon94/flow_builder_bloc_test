@@ -25,6 +25,9 @@ class _TestFlowState extends State<TestFlow> {
               return FlowBuilder<FlowStepState>(
                 key: key,
                 state: state,
+                onPop: () {
+                  BlocProvider.of<FlowBloc>(context).add(FlowStepPop());
+                },
                 onGeneratePages: (state, pages) => [
                   MaterialPage(key: ValueKey(0), child: TestStep1()),
                   if (state.feature1 != null)

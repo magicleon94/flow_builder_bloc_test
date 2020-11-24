@@ -67,9 +67,11 @@ packages:
   flow_builder:
     dependency: "direct main"
     description:
-      name: flow_builder
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: "feature/onPop"
+      resolved-ref: "76cc674fb432d38661ee68df62efcc215f122b77"
+      url: "https://github.com/magicleon94/flow_builder"
+    source: git
     version: "0.0.1-dev.9"
   flutter:
     dependency: "direct main"

@@ -12,3 +12,5 @@ class FlowStep1Done extends FlowEvent {}
 class FlowStep2Done extends FlowEvent {}
 
 class FlowStep3Done extends FlowEvent {}
+
+class FlowStepPop extends FlowEvent {}
